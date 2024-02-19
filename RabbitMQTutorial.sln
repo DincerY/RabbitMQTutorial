@@ -5,31 +5,35 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkQueueExample", "WorkQueueExample", "{992859D4-0DCD-43DB-A17E-896ABB48DB05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "WorkQueueExample\NewTask\NewTask.csproj", "{357826D1-8FB6-4F24-A3DC-17160EAB2CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "WorkQueueExample\NewTask\NewTask.csproj", "{357826D1-8FB6-4F24-A3DC-17160EAB2CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "WorkQueueExample\Worker\Worker.csproj", "{021B7190-C7E2-4A96-BBF8-48923DE2BA76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "WorkQueueExample\Worker\Worker.csproj", "{021B7190-C7E2-4A96-BBF8-48923DE2BA76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribeExample", "PublishSubscribeExample", "{E513A315-143A-4AC6-B6DA-A540A65E0063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "PublishSubscribeExample\Publish\Publisher.csproj", "{38FCA079-4152-4573-AF09-9B1ACDEE05B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "PublishSubscribeExample\Publish\Publisher.csproj", "{38FCA079-4152-4573-AF09-9B1ACDEE05B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "PublishSubscribeExample\Subscriber\Subscriber.csproj", "{54EA5E23-5CA3-4E1B-B1FC-0AB665707CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "PublishSubscribeExample\Subscriber\Subscriber.csproj", "{54EA5E23-5CA3-4E1B-B1FC-0AB665707CEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing", "Routing", "{FEDE3475-0BC0-4D21-89B9-2AB1E871B341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "Routing\EmitLog\EmitLog.csproj", "{EE7ED313-CDB9-4C0B-89C0-5BB1EBB45553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLog", "Routing\EmitLog\EmitLog.csproj", "{EE7ED313-CDB9-4C0B-89C0-5BB1EBB45553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLog", "Routing\ReceiveLog\ReceiveLog.csproj", "{BD3E8A8E-6407-4B20-BC78-F5AB67230C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLog", "Routing\ReceiveLog\ReceiveLog.csproj", "{BD3E8A8E-6407-4B20-BC78-F5AB67230C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogExample", "Routing\EmitLogExample\EmitLogExample.csproj", "{502A6611-C253-4820-83A2-34FA2C212C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogExample", "Routing\EmitLogExample\EmitLogExample.csproj", "{502A6611-C253-4820-83A2-34FA2C212C2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogExample", "Routing\ReceiveLogExample\ReceiveLogExample.csproj", "{B98E04F6-C625-40EF-8E49-B2E2A6427A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogExample", "Routing\ReceiveLogExample\ReceiveLogExample.csproj", "{B98E04F6-C625-40EF-8E49-B2E2A6427A35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{DCFDC6FA-A733-4465-91AB-CF84172B3A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopic", "Topic\EmitLogTopic\EmitLogTopic.csproj", "{B111C8C7-B3FD-415D-9940-CB8B1E2090D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "Topic\EmitLogTopic\EmitLogTopic.csproj", "{B111C8C7-B3FD-415D-9940-CB8B1E2090D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopic", "Topic\ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{60F62F69-3B34-408C-BE35-C9EC8B551520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsTopic", "Topic\ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{60F62F69-3B34-408C-BE35-C9EC8B551520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopicExample", "Topic\EmitLogTopicExample\EmitLogTopicExample.csproj", "{311EF780-D2B3-4F29-889D-BC13C1BD3D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopicExample", "Topic\ReceiveLogsTopicExample\ReceiveLogsTopicExample.csproj", "{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +81,14 @@ Global
 		{60F62F69-3B34-408C-BE35-C9EC8B551520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F62F69-3B34-408C-BE35-C9EC8B551520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60F62F69-3B34-408C-BE35-C9EC8B551520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311EF780-D2B3-4F29-889D-BC13C1BD3D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311EF780-D2B3-4F29-889D-BC13C1BD3D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311EF780-D2B3-4F29-889D-BC13C1BD3D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311EF780-D2B3-4F29-889D-BC13C1BD3D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +104,8 @@ Global
 		{B98E04F6-C625-40EF-8E49-B2E2A6427A35} = {FEDE3475-0BC0-4D21-89B9-2AB1E871B341}
 		{B111C8C7-B3FD-415D-9940-CB8B1E2090D4} = {DCFDC6FA-A733-4465-91AB-CF84172B3A27}
 		{60F62F69-3B34-408C-BE35-C9EC8B551520} = {DCFDC6FA-A733-4465-91AB-CF84172B3A27}
+		{311EF780-D2B3-4F29-889D-BC13C1BD3D7E} = {DCFDC6FA-A733-4465-91AB-CF84172B3A27}
+		{B5800F7E-45FB-4E96-9C26-A3CE9826E4D6} = {DCFDC6FA-A733-4465-91AB-CF84172B3A27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {250D6BD1-7A0D-4230-B538-028FBD16D0E6}
