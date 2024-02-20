@@ -22,5 +22,5 @@ var routingKey = args[0];
 channel.BasicPublish("denemeTopic",
     routingKey: routingKey,
     basicProperties: null,
-body:body);
+    body:body);
 
